@@ -15,6 +15,8 @@ int main() {
   float float1 = 12.1;
   
   char char1='b';
+  
+  bool boolean=true;
 
   /* 
     This sizeof function is used to get the size of a datatype
@@ -26,4 +28,5 @@ int main() {
   cout << "Size of Long Double is:- "<<sizeof(double2)<<endl;
   cout << "Size of Float is:- "<<sizeof(float1)<<endl;
   cout << "Size of Character is:- "<<sizeof(char1)<<endl;
+  cout << "Size of Character is:- "<<sizeof(boolean)<<endl;
 }
