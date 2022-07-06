@@ -4,19 +4,19 @@ using namespace std;
 int main() {
   // Declearing the Variables with different datatypes numerical data is declared with value 0 to avoid garbage value
   
-  int integer1 = 10;
+  int integer1{0};
   
-  long int integer2 = 50;
+  long int integer2{0};
   
-  double double1 = 50.02;
+  double double1{0.00};
   
-  long double double2 = 50.02;
+  long double double2{0.00};
   
-  float float1 = 12.1;
+  float float1{0.0};
   
   char char1='b';
   
-  bool boolean=true;
+  bool boolean{true};
 
   /* 
     This sizeof function is used to get the size of a datatype
